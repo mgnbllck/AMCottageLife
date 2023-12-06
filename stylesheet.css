@@ -1,0 +1,247 @@
+html{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.main-content {
+    position: relative;
+    top: 10rem; /* to offset for fixed header */
+}
+
+.main-content h1{
+    color: black;
+    text-align: center;
+    background-color: darkgrey;
+    opacity: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+}
+
+
+body{
+    color: darkgrey;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+/* Header */
+header{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    margin-top: 0;
+    height: auto;
+    background-color: darkgray;
+    border: darkgreen 2px solid;
+    border-width: 100%;
+}
+
+header .header{
+    display: flex;
+    align-items: center;
+}
+header .logo{
+    display: flex;
+    height: 100px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+/*nav bar*/
+nav li{
+    padding: 1rem;
+}
+
+nav a{
+    vertical-align: bottom;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: darkgreen;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+nav ul{
+    list-style: none;
+}
+
+/*Main section - about us*/
+
+
+/*about us*/
+
+#features-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #945022;
+    opacity: 85%;
+    color: black;
+    line-height: .5;
+}
+
+.responsive{
+    max-width: 90%;
+    max-height: 100%;
+}
+
+.image-container{
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-bottom: .1rem;
+}
+
+.feature .content{
+    padding-bottom: .1rem;
+}
+
+.feature a{
+    text-decoration: underline;
+    color: white;
+}
+
+.feature a:hover{
+    color: yellow;
+}
+
+.feature a:visited{
+    color: lightblue;
+}
+
+.feature h2 {
+    padding-bottom: .5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .feature h3 {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: .5;
+    font-weight: 300;
+    color: white;
+    margin-left: 30px;
+    text-align: center;
+  }
+
+
+  /* Quotes/LOCATION Section */
+
+#quotes-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    background-color: #9ca88d;
+    opacity: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: darkblue;
+    text-align: center;
+    
+}
+.responsive{
+    max-width: 90%;
+    max-height: 100%;
+}
+#quotes-section .content h2{
+    color: brown;
+    padding-left: 20px;
+    text-align: center;
+    line-height: .5;
+}
+
+#quotes-section h3{
+    color: darkblue;
+    line-height: .5;
+}
+
+#quotes-section .content h4{
+    color: brown;
+    margin-top: 2px;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 30px;
+}
+
+/*Financing Section*/
+#finance{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #5c061f;
+    opacity: 75%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+#finance .content h4{
+    color: white;
+    margin-top: 2px;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 30px;
+}
+
+
+
+
+  /* Footer */
+
+footer {
+    background-color: lightgrey;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: solid black 3px;
+  }
+  
+  footer .content {
+    color: darkgreen;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1rem;
+  }
+  
+  footer .copyright {
+    flex-grow: 1;
+  }
+
+  footer .location{
+    padding-right: 1rem;
+    padding-left: 2rem;
+  }
+  
